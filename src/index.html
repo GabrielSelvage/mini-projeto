@@ -1,0 +1,65 @@
+<script src= "https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+
+<h1> Meu Mini Projeto </h1>
+
+<canvas id= "canvas1"  class= "can1"></canvas>
+
+<h2> Selecione o Arquivo </h2>
+
+<input type= "file"
+       multiple= "false"
+       value= "Escolha o Arquivo"
+       accept="image/*"
+       onchange= "loadImage()"
+       id= "bot1"
+       class= "button">
+<h2> Escolha o Filtro </h2>
+
+<p>
+<input type= "button"
+       value= "gray"
+       onclick= "makeGray()"
+       id="gray"
+       class= "button">
+  
+<input type= "button"
+       value= "blue"
+       onclick= "makeBlue()"
+       id="blue"
+       class= "button">  
+  
+<input type= "button"
+       value= "red"
+       onclick= "makeRed()"
+       id="red"
+       class= "button">
+  
+<input type= "button"
+       value= "window"
+       onclick= "makeWindow()"
+       id="window"
+       class= "button">
+  
+<input type= "button"
+       value= "rainbow"
+       onclick= "doRainbow()"
+       id="rainbow"
+       class= "button">
+  
+  <input type= "button"
+       value= "Blur"
+       onclick= "makeBlur()"
+       id="foccal"
+       class= "button">
+</p>
+
+<input type= "button"
+       value= "Reset Image"
+       onclick= "makeReset()"
+       id="reset"
+       class= "button">
+
+
+
+
+

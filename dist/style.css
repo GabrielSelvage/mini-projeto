@@ -1,0 +1,30 @@
+body {
+  background-color: #2F4F4F;
+  text-align: center;
+}
+
+h1 {
+  text-align : center;
+  color: #FFFFFF;
+  font-family: "Courier New", Courier, monospace;
+  text-decoration: underline #846219;
+}
+
+canvas {
+  widht: 300px;
+  border: 4px solid #846219;
+  outline: solid 10px;
+}
+
+h2 {
+  text-align : center; 
+  color: #FFFFFF;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.button {
+border: 1px solid rgba(55,55,55,1);
+padding: 5px 10px;
+background: rgba(77, 77, 77, 0.95);
+color: white;
+}
